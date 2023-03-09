@@ -410,7 +410,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Tinos', serif;
 }
 
 /* Header style start  */
@@ -500,3 +500,33 @@ body {
 .button:hover, .button:focus, .button:active {
     background-color: hsl(27, 95%, 25%);;
 }
+
+/* Start header down styles */
+
+
+.header__down {
+    position: relative;
+}
+
+.header__title {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    color: #D67E35;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Tinos';
+    line-height: 57px;  
+    margin-top: 222px;
+}
+
+.header__subtitle {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
+/* end header down styles  */
