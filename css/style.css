@@ -426,7 +426,10 @@ body {
 }
 
 .wrapper {
-    margin: 0px 166px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* margin: 0px 166px; */
 }
 
 .header__line {
@@ -586,6 +589,7 @@ body {
 
 .intro__wrapper {
     display: flex;
+    /* padding: 0px 166px; */
     justify-content: center;
 }
 
@@ -596,6 +600,7 @@ body {
     margin-right: 31px;
     background-color: #fff;
     margin-top: -100px;
+    padding: 0px 20px;
     /* left: 166px;
     top: 693px */
 
@@ -604,18 +609,90 @@ body {
 .card__pic {
     display: flex;
     justify-content: center;
+    margin-top: 35px;
 }
 
 .card__title {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.card__title span {
+    color:  #BC9060;
+    padding: 0 10px;
 }
 
 .card__desc {
-    display: flex;
+    text-align: center;
     justify-content: center;
+    font-family: 'Tinos' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+/* End intro style  */
+
+/* Start History styles */
+.history {
+    /* display: flex; */
+    justify-content: space-between;
 }
 
+.history__title {
+    width: 336px;
+    height: 62px;
+    margin-top: 166px;
+    margin-left: 54px;
+    font-family: 'Tinos' sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+}
 
+.history__title span {
+    color: #D67E34;
+}
 
-/* End intro style  */
+.history__desc {
+    margin-top: 21px;
+    width: 444px;
+    height: 217px;
+    /* padding-left: 166px; */
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.history__number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.number__item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.number__item span {
+    display: block;
+    color: #BC9060;
+}
+/* End  History styles  */
+
