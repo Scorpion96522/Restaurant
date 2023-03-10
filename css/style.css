@@ -701,9 +701,27 @@ body {
 
 .history-pic-1 {
     position: absolute;
-    z-index: 25;
-    top: 10;
-    left: 10;
+    z-index: 2;
+    top: 175px;
+    right: 280px;
+}
+.history-pic-2 {
+    position: absolute;
+    z-index: 3;
+    top: 140px;
+    right: 120px;
+}
+.history-pic-3 {
+    position: absolute;
+    z-index: 4;
+    top: 335px;
+    right: 25px;
+}
+.history-pic-4 {
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    right: 65px;
 }
 /* End  History styles  */
 
