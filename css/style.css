@@ -641,8 +641,8 @@ body {
 /* End intro style  */
 
 /* Start History styles */
-.history {
-    /* display: flex; */
+.history__holder {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -693,6 +693,17 @@ body {
 .number__item span {
     display: block;
     color: #BC9060;
+}
+
+.history__img {
+    position: relative;
+}
+
+.history-pic-1 {
+    position: absolute;
+    z-index: 25;
+    top: 10;
+    left: 10;
 }
 /* End  History styles  */
 
