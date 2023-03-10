@@ -577,3 +577,39 @@ body {
 }
 
 /* end header down styles  */
+
+/* Start intro style  */
+
+.intro__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 349px;
+    height: 328px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+
+}
+
+.card__pic {
+    display: flex;
+    justify-content: center;
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+}
+
+.card__desc {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* End intro style  */
