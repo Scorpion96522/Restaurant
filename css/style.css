@@ -725,3 +725,29 @@ body {
 }
 /* End  History styles  */
 
+ /* Start Black block styles */
+.black__block {
+    margin-top: 122px;
+    background-image: url(../img/black-block-pic.jpg);
+}
+
+.left__title {
+    padding-top: 80px;
+    font-family: 'Tinos' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+
+.left__text {
+    padding-top: 20px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+ /* End Black block styles */
