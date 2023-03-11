@@ -505,7 +505,7 @@ body {
 }
 
 .button:hover, .button:focus, .button:active {
-    background-color: hsl(27, 95%, 25%);;
+    background-color: hsl(27, 95%, 25%);
 }
 
 /* Start header down styles */
@@ -731,6 +731,11 @@ body {
     background-image: url(../img/black-block-pic.jpg);
 }
 
+.black__block-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
 .left__title {
     padding-top: 80px;
     font-family: 'Tinos' sans-serif;
@@ -750,4 +755,39 @@ body {
     color: #FFFFFF;
 }
 
+.right {
+    margin-top: 155px;
+}
+
+.right__button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+}
+
+.right__button:hover, .right__button:focus, .right__button:active {
+    background-color: hsl(27, 95%, 25%);
+}
  /* End Black block styles */
+
+ /* Start dishes  styles block */
+ .dishes__title {
+    padding-top: 132px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tinos' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;  
+    color: #000000;
+ }
+
+ .dishes__title span {
+    color: #D67E34;
+ }
+
+ /* End dishes  styles block */
