@@ -23,7 +23,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -815,5 +815,142 @@ body {
     line-height: 30px;
     color: #000000;
 }
-
  /* End dishes  styles block */
+
+ /* Start menu styles */
+.menu {
+    background: url(../img/bg-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.menu__title {
+    padding-top: 98px;
+    padding-bottom: 138px;
+    text-align: center;
+    font-family: 'Tinos' serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.menu__items {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__recommend {
+    padding: 7px 11px 11px 11px;
+    width: 124px;
+    height: 36px;
+
+background: #D67E34;
+}
+.reccomend { 
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+
+text-align: center;
+
+}
+
+.menu__item {
+    margin-right: 30px;
+    width:350px;
+    height:510px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menu__img-one {
+    padding-top: 5px;
+    position: relative;
+}
+
+.menu__img {
+    padding-top: 40px;
+    position: relative;
+}
+
+.price__menu-one {
+    position: absolute;
+    top: 170px;
+    right: 58px ;
+}
+
+.price__menu-pic {
+    position: absolute;
+    top: 206px;
+    right: 58px ;
+}
+
+.price__text-one {
+    position: absolute;
+    bottom: 30px;
+    right: 89px;  
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;  
+    color: #FFFFFF;
+}
+
+.price__text {
+    position: absolute;
+    bottom: 32px;
+    right: 89px;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;  
+    color: #FFFFFF;
+}
+
+
+.sub__title {
+    padding-top: 16px;
+    padding-bottom: 17px;
+    font-family: 'Tinos' serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.menu__text {
+    margin-bottom: 20px;
+    font-family: 'Open Sans' serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center; 
+    color: #000000;
+}
+
+.menu__btn {
+    width: 220px;
+    height: 50px;
+    padding: 14px 67px;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans' serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;  
+    transition: .3s linear;
+}
+
+.menu__btn:hover, .menu__btn:focus, .menu__btn:active {
+    background-color: hsl(8, 95%, 36%);
+}
+
+ /* End menu styles */
