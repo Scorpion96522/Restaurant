@@ -952,5 +952,52 @@ text-align: center;
 .menu__btn:hover, .menu__btn:focus, .menu__btn:active {
     background-color: hsl(8, 95%, 36%);
 }
-
  /* End menu styles */
+
+ /* Start  feedback styles  */
+.feedback {
+    background: #E6E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment__text {  
+    margin-bottom: 30px;  
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.feedback__img {
+text-align: center;
+}
+
+.feedback__pic {
+    border-radius: 50px;
+}
+
+.comment__type {
+    padding-top: 17px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.comment__name {
+    padding-top: 9px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+ /* End  feedback styles  */
