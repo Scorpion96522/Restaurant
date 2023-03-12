@@ -788,6 +788,7 @@ body {
  }
 
  .dishes__title span {
+    padding: 0px 10px;
     color: #D67E34;
  }
 
