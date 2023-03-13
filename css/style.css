@@ -1054,3 +1054,28 @@ text-align: center;
     grid-row: 2;
 }
  /* End galery styles  */
+
+  /* Start cook styles  */
+.cook__title {
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    font-style: normal;
+    color: #000000;
+}
+
+.cook__title span {
+color: #D67E34;
+}
+
+.cook__content {
+    display: flex;
+}
+
+.cook__pic {
+    padding-right: 30px;
+}
+/* End cook styles  */
