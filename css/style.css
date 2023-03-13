@@ -1079,3 +1079,34 @@ color: #D67E34;
     padding-right: 30px;
 }
 /* End cook styles  */
+
+/* Start footer styles  */
+
+.footer {
+    margin-top: 100px;
+    background: url(../img/footer-pic.jpg);
+}
+
+/* .footer__item {
+    display: flex;
+} */
+
+.footer__menu-title {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__menu {
+    text-align: center;
+}
+
+.footer__menu-link {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* End footer styles  */
