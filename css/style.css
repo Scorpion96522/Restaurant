@@ -1110,3 +1110,16 @@ color: #D67E34;
     line-height: 24px;
 }
 /* End footer styles  */
+
+/* @media (max-width: 1500px) {
+    .galery__content {
+        display: block;
+        margin: 0 auto;
+    }
+    .galery__pic { */
+        /* display: block; */
+        /* margin-left: auto;
+        margin-right: auto;
+    }
+} */
+
